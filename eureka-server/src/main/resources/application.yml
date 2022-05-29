@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: eureka-server #指定服务名称
+  security:
+    user:
+      name: panda
+      password: panda123
 eureka:
   instance:
     hostname: localhost #指定主机地址
